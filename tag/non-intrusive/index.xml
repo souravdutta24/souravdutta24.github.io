@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Non-intrusive | Sourav Dutta</title>
+    <link>https://souravdutta24.github.io/tag/non-intrusive/</link>
+      <atom:link href="https://souravdutta24.github.io/tag/non-intrusive/index.xml" rel="self" type="application/rss+xml" />
+    <description>Non-intrusive</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://souravdutta24.github.io/media/icon_hu5713d3a65fea9fd9bc9993047959f501_1358_512x512_fill_lanczos_center_3.png</url>
+      <title>Non-intrusive</title>
+      <link>https://souravdutta24.github.io/tag/non-intrusive/</link>
+    </image>
+    
+    <item>
+      <title>pyNIROM—A suite of python modules for non-intrusive reduced order modeling of time-dependent problems</title>
+      <link>https://souravdutta24.github.io/publication/si-2021/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/si-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

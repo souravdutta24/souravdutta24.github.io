@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>pyNIROM—A suite of python modules for non-intrusive reduced order modeling of time-dependent problems</title>
+      <link>https://souravdutta24.github.io/publication/si-2021/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/si-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A greedy non-intrusive reduced order model for shallow water equations</title>
       <link>https://souravdutta24.github.io/publication/anm-2019/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
@@ -53,14 +61,6 @@
       <link>https://souravdutta24.github.io/publication/mca-2022/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://souravdutta24.github.io/publication/mca-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A greedy non-intrusive reduced order model for shallow water equations</title>
-      <link>https://souravdutta24.github.io/publication/si-2021/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://souravdutta24.github.io/publication/si-2021/</guid>
       <description></description>
     </item>
     
@@ -248,7 +248,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-615479382&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-629583174&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -258,7 +258,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-615479382&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-629583174&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
