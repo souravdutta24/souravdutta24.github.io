@@ -34,20 +34,34 @@
     
     <item>
       <title>A greedy non-intrusive reduced order model for shallow water equations</title>
-      <link>https://souravdutta24.github.io/publication/journal-article/</link>
+      <link>https://souravdutta24.github.io/publication/anm-2019/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://souravdutta24.github.io/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <guid>https://souravdutta24.github.io/publication/anm-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A greedy non-intrusive reduced order model for shallow water equations</title>
+      <link>https://souravdutta24.github.io/publication/jcp-2021/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/jcp-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A greedy non-intrusive reduced order model for shallow water equations</title>
+      <link>https://souravdutta24.github.io/publication/mca-2022/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/mca-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A greedy non-intrusive reduced order model for shallow water equations</title>
+      <link>https://souravdutta24.github.io/publication/si-2021/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/si-2021/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -234,7 +248,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-632945781&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-385962741&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -244,7 +258,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-632945781&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-385962741&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -723,6 +737,14 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Modeling and simulation of surfactant–polymer flooding using a new hybrid method</title>
+      <link>https://souravdutta24.github.io/publication/jcp-2017/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/jcp-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Project</title>
       <link>https://souravdutta24.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -745,9 +767,47 @@ $$&lt;/p&gt;
     
     <item>
       <title>An example conference paper</title>
-      <link>https://souravdutta24.github.io/publication/conference-paper/</link>
+      <link>https://souravdutta24.github.io/publication/aaai-2021/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://souravdutta24.github.io/publication/conference-paper/</guid>
+      <guid>https://souravdutta24.github.io/publication/aaai-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://souravdutta24.github.io/publication/coupled-2021/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/coupled-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://souravdutta24.github.io/publication/wrc-2014/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/wrc-2014/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
