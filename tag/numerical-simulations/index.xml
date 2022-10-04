@@ -5,12 +5,20 @@
     <link>https://souravdutta24.github.io/tag/numerical-simulations/</link>
       <atom:link href="https://souravdutta24.github.io/tag/numerical-simulations/index.xml" rel="self" type="application/rss+xml" />
     <description>Numerical simulations</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://souravdutta24.github.io/media/icon_hu5713d3a65fea9fd9bc9993047959f501_1358_512x512_fill_lanczos_center_3.png</url>
       <title>Numerical simulations</title>
       <link>https://souravdutta24.github.io/tag/numerical-simulations/</link>
     </image>
+    
+    <item>
+      <title>On the convergence analysis of a hybrid numerical method for multicomponent transport in porous media</title>
+      <link>https://souravdutta24.github.io/publication/anm-2019/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/anm-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modeling and simulation of surfactant–polymer flooding using a new hybrid method</title>
