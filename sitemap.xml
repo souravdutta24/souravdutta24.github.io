@@ -238,10 +238,6 @@
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://souravdutta24.github.io/publication/aaai-2021/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://souravdutta24.github.io/publication/coupled-2021/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -251,6 +247,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://souravdutta24.github.io/admin/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://souravdutta24.github.io/publication/aaai-2021/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
