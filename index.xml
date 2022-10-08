@@ -5,7 +5,7 @@
     <link>https://souravdutta24.github.io/</link>
       <atom:link href="https://souravdutta24.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sourav Dutta</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://souravdutta24.github.io/media/icon_hu5713d3a65fea9fd9bc9993047959f501_1358_512x512_fill_lanczos_center_3.png</url>
       <title>Sourav Dutta</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://souravdutta24.github.io/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://souravdutta24.github.io/talk/example-talk/</guid>
+      <title>Reduced Order Modeling Using Advection-Aware Autoencoders</title>
+      <link>https://souravdutta24.github.io/publication/mca-2022/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/publication/mca-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Order Reduction in Computational Hydrology</title>
+      <link>https://souravdutta24.github.io/talk/model-order-reduction-in-computational-hydrology/</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://souravdutta24.github.io/talk/model-order-reduction-in-computational-hydrology/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -30,14 +38,6 @@
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Reduced Order Modeling Using Advection-Aware Autoencoders</title>
-      <link>https://souravdutta24.github.io/publication/mca-2022/</link>
-      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://souravdutta24.github.io/publication/mca-2022/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -264,7 +264,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-578439126&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-256934781&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -274,7 +274,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-578439126&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-256934781&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
