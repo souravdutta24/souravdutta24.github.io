@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Sourav Dutta</title>
+    <title>News | Sourav Dutta</title>
     <link>https://souravdutta24.github.io/news/</link>
       <atom:link href="https://souravdutta24.github.io/news/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <description>News</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://souravdutta24.github.io/media/icon_hu5713d3a65fea9fd9bc9993047959f501_1358_512x512_fill_lanczos_center_3.png</url>
-      <title>Posts</title>
+      <title>News</title>
       <link>https://souravdutta24.github.io/news/</link>
     </image>
     
@@ -196,7 +196,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-728541639&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-842619537&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -206,7 +206,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-728541639&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-842619537&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
