@@ -257,7 +257,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-842619537&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-721456983&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -267,7 +267,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-842619537&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-721456983&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -545,14 +545,6 @@ Crash --&gt; [*]
   &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
 &lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>https://souravdutta24.github.io/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://souravdutta24.github.io/publication/preprint/</guid>
-      <description></description>
     </item>
     
     <item>
