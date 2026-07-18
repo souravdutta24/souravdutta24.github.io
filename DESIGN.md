@@ -32,6 +32,12 @@ typography:
     fontWeight: 400
     lineHeight: 1.5
     letterSpacing: normal
+  subheading:
+    fontFamily: "Public Sans, sans-serif"
+    fontSize: "1.125rem"
+    fontWeight: 600
+    lineHeight: 1.3
+    letterSpacing: normal
   meta:
     fontFamily: "Public Sans, sans-serif"
     fontSize: "0.875rem"
@@ -128,9 +134,10 @@ A near-monochrome page (black ink on white paper) with a single accent that swap
 ### Hierarchy
 
 - **Display** (weight 700, `clamp(2rem, 1.6rem + 1.8vw, 2.75rem)`, line-height 1.2, letter-spacing -0.01em): the name/title at the top of the About page (`<h1 class="post-title">`). Fluid per brand-register convention; bounded to a 1.375× min/max ratio so it never "shouts."
-- **Headline** (weight 600, 2rem, line-height 1.25): section headings — News, Selected Publications (`.page-section-heading`).
-- **Body** (weight 400, 1rem, line-height 1.5): bio prose, publication metadata, news items. Kept close to Bootstrap's 65–75ch comfortable measure inside the `.clearfix` content column.
-- **Meta** (weight 400, 0.875rem, line-height 1.4): secondary/de-emphasized prose — post-meta, post-tags, post-description, CV secondary lines. Formalizes a size that was already repeated ad hoc across the codebase.
+- **Headline** (weight 600, 2rem, line-height 1.25): section headings — News, Selected Publications, Work Experience (`.page-section-heading`).
+- **Subheading** (weight 600, 1.125rem, line-height 1.3): entity-level headings one step below Headline — currently just the institution name in each Work Experience entry (`.work-experience-institution`).
+- **Body** (weight 400, 1rem, line-height 1.5): bio prose, publication metadata, news items. Kept close to Bootstrap's 65–75ch comfortable measure inside the `.clearfix` content column. Also used at weight 500 for the Work Experience position title (`.work-experience-title`) — a sub-subheading distinguished from body prose by weight alone, not a new size.
+- **Meta** (weight 400, 0.875rem, line-height 1.4): secondary/de-emphasized prose — post-meta, post-tags, post-description, Work Experience date/location line. Formalizes a size that was already repeated ad hoc across the codebase.
 - **Eyebrow** (weight 700, 0.875rem, uppercase, letter-spacing 0.05em): the Education/Interests micro-headings (`.section-subheading`). Shares Meta's size, differentiated by weight/case/tracking rather than a one-off size (was 0.95rem, an undocumented outlier).
 - **Label** (weight 500, 0.75rem, letter-spacing 0.02em): venue badges, button text (uppercase, per Bootstrap's `.btn` default), institution captions under a degree.
 
@@ -174,7 +181,7 @@ Flat by default. Shadow is structural, not ambient — it appears only on the tw
 
 ### Navigation
 
-- **Style:** fixed-top, single row, right-aligned links (about / publications / experience), a `ctrl k` search trigger, and a light/dark toggle. Text-only — no button chrome on nav items.
+- **Style:** fixed-top, single row, right-aligned links (about / publications), a `ctrl k` search trigger, and a light/dark toggle. Text-only — no button chrome on nav items.
 - **Active/hover:** Academic Violet or Night Cyan text, no background pill or underline-on-rest — the color change alone signals state.
 - **Mobile:** collapses to a hamburger toggle (Bootstrap navbar-toggler) at the same fixed-top position.
 

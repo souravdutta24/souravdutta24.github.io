@@ -66,7 +66,7 @@ table.table a {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
+  border: 1px solid var(--global-divider-color);
   margin: 1.5em 0;
   padding: 1em;
   font-size: 1.2rem;
@@ -310,6 +310,51 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Work Experience section on the About page
+.work-experience {
+  margin-top: 1rem;
+}
+
+.work-experience-entry {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.work-experience-institution {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.work-experience-position {
+  margin-bottom: 0.75rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.work-experience-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+
+.work-experience-meta {
+  font-size: 0.875rem;
+  color: var(--global-text-color-light);
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }
@@ -499,6 +544,11 @@ ul.task-list input[type="checkbox"] {
 
 #light-toggle,
 #search-toggle {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -912,7 +962,7 @@ footer.sticky-bottom {
       }
 
       .links {
-        a.btn {
+        .btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -920,13 +970,14 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          background: none;
 
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
         }
-        a.award.btn {
+        .award.btn {
           border-color: var(--global-highlight-color);
         }
       }

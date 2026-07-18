@@ -49,6 +49,12 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Work Experience -->
+    {% if page.work_experience %}
+      <h2 class="page-section-heading">Work Experience</h2>
+      {% include work_experience.liquid %}
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2 class="page-section-heading">

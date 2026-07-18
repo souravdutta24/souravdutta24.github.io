@@ -12,15 +12,17 @@ al-folio v1.0 split the theme into external RubyGems (`al_folio_core`, `al_folio
 
 ## Sections in scope
 
-Only five sections exist: **About, Experience, News, Selected Publications, Contact**. Everything else al-folio ships (Blog, Teaching, Projects, Distill posts, Books, Repositories, Profiles, the dropdown-nav demo) was deleted outright — not hidden from nav, the files are gone. Don't re-add them without deciding you actually want that section back (and re-vendoring the relevant files from upstream al-folio v0.16.3).
+Only five sections exist: **About, Work Experience, News, Selected Publications, Contact** — all on one page. Everything else al-folio ships (Blog, Teaching, Projects, Distill posts, Books, Repositories, Profiles, the dropdown-nav demo) was deleted outright — not hidden from nav, the files are gone. Don't re-add them without deciding you actually want that section back (and re-vendoring the relevant files from upstream al-folio v0.16.3).
 
-| Section                                        | File(s)                                                                                                                  |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| About / News / Selected Publications / Contact | `_pages/about.md` (single page, `layout: about`, permalink `/`)                                                          |
-| Experience                                     | `_pages/cv.md` (`layout: cv`, permalink `/experience/`) + `_data/cv.yml` (single `Experience` time_table block)          |
-| News                                           | `_news/*.md` collection, rendered via `_includes/news.liquid`                                                            |
-| Publications                                   | `_bibliography/papers.bib` (jekyll-scholar), full list at `/publications/`, `selected={true}` entries also show on About |
-| Social links / contact                         | `_data/socials.yml`, `contact_note` in `_config.yml`                                                                     |
+There used to be a standalone `/experience/` page (`_pages/cv.md`, `layout: cv`) with its own left-sidebar TOC and a CV-pdf download link. It was folded into the homepage as a plain "Work Experience" section and the page/layout/includes were deleted outright (same convention as the other removed sections) — don't re-add `layout: cv` or `_includes/cv/*` without deciding you want that whole standalone-page architecture back.
+
+| Section                                                       | File(s)                                                                                                                  |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| About / Work Experience / News / Selected Publications / Contact | `_pages/about.md` (single page, `layout: about`, permalink `/`)                                                        |
+| Work Experience                                               | `_data/work_experience.yml` (flat list: `institution`, `title`, `year`, optional `location`), rendered via `_includes/work_experience.liquid` |
+| News                                                           | `_news/*.md` collection, rendered via `_includes/news.liquid`                                                            |
+| Publications                                                   | `_bibliography/papers.bib` (jekyll-scholar), full list at `/publications/`, `selected={true}` entries also show on About |
+| Social links / contact                                        | `_data/socials.yml`, `contact_note` in `_config.yml`                                                                     |
 
 ## Adding content
 
@@ -41,7 +43,7 @@ Use `12:00:00` (noon), not midnight — a midnight UTC timestamp can roll back a
 
 **Publication**: add a BibTeX entry to `_bibliography/papers.bib`. Useful custom fields (see `_layouts/bib.liquid`): `abbr` (venue badge), `selected={true}` (show on homepage), `preview={path/in/assets/img/...}` (thumbnail), `pdf`/`code`/`poster`/`slides`/`website`/`video`/`arxiv`/`doi` (link buttons/badges). Don't fabricate volume/issue/page numbers you're not sure of — omit the field rather than guess; the DOI/arXiv link is authoritative.
 
-**Experience entry**: add an entry under the `contents:` list of the single `Experience` block in `_data/cv.yml` (`title`, `institution`, `year`, optional `description` list).
+**Work Experience entry**: add an entry to `_data/work_experience.yml` (`institution`, `title`, `year`, optional `location`). No bullet/description list — the section is intentionally just institution + title + dates.
 
 ## Local preview
 

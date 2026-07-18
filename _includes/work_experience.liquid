@@ -1,0 +1,15 @@
+<div class="work-experience">
+  {% for job in site.data.work_experience %}
+    <div class="work-experience-entry">
+      <h3 class="work-experience-institution">{{ job.institution }}</h3>
+      {% for position in job.positions %}
+        <div class="work-experience-position">
+          <h4 class="work-experience-title">{{ position.title }}</h4>
+          <div class="work-experience-meta">
+            {{ position.year }}{% if position.location %} &middot; {{ position.location }}{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
