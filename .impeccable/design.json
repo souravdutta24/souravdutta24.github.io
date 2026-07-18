@@ -4,8 +4,18 @@
   "title": "Design System: The Scholar's Desk",
   "extensions": {
     "colorMeta": {
-      "academic-violet": { "role": "primary", "displayName": "Academic Violet", "canonical": "#b509ac", "tonalRamp": ["#490445", "#880781", "#c20ab9", "#f316e8", "#f650ee", "#f98af3", "#fcbbf8", "#fee7fd"] },
-      "night-cyan": { "role": "primary", "displayName": "Night Cyan", "canonical": "#2698ba", "tonalRamp": ["#0d3440", "#186177", "#238aa9", "#34b0d5", "#67c4e0", "#99d8ea", "#c4e8f3", "#eaf7fb"] },
+      "academic-violet": {
+        "role": "primary",
+        "displayName": "Academic Violet",
+        "canonical": "#b509ac",
+        "tonalRamp": ["#490445", "#880781", "#c20ab9", "#f316e8", "#f650ee", "#f98af3", "#fcbbf8", "#fee7fd"]
+      },
+      "night-cyan": {
+        "role": "primary",
+        "displayName": "Night Cyan",
+        "canonical": "#2698ba",
+        "tonalRamp": ["#0d3440", "#186177", "#238aa9", "#34b0d5", "#67c4e0", "#99d8ea", "#c4e8f3", "#eaf7fb"]
+      },
       "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff" },
       "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#000000" },
       "ink-black": { "role": "neutral", "displayName": "Ink Black", "canonical": "#1c1c1d" },
@@ -21,8 +31,16 @@
       "label": { "displayName": "Label", "purpose": "Badges, button text, Education/Interests subheadings." }
     },
     "shadows": [
-      { "name": "z-depth-1", "value": "0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)", "purpose": "Structural lift for the profile photo and publication preview thumbnails only." },
-      { "name": "z-depth-0", "value": "none", "purpose": "Explicit flattening override for buttons and other MDB components that ship a shadow by default." }
+      {
+        "name": "z-depth-1",
+        "value": "0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)",
+        "purpose": "Structural lift for the profile photo and publication preview thumbnails only."
+      },
+      {
+        "name": "z-depth-0",
+        "value": "none",
+        "purpose": "Explicit flattening override for buttons and other MDB components that ship a shadow by default."
+      }
     ],
     "breakpoints": [
       { "name": "sm", "value": "576px" },
@@ -81,9 +99,21 @@
       "Bootstrap/MDB primitives used close to stock — no custom component language layered on top."
     ],
     "rules": [
-      { "name": "The One Accent Rule", "body": "Exactly one non-neutral color is live on the page at any time (Academic Violet or Night Cyan, never both). It marks interactivity — links, hover, active nav — and nothing else. Category badges, buttons, and borders stay neutral.", "section": "colors" },
-      { "name": "The One-Typeface Rule", "body": "Every weight on the page is Roboto. If a new component needs a second typeface to feel distinct, that's a sign it doesn't belong on this page.", "section": "typography" },
-      { "name": "The Flat-By-Default Rule", "body": "MDB's Material components ship a shadow by default; this system turns it off everywhere except the photo and thumbnails. If a new button or card looks \"lifted,\" it's wrong — flatten it with z-depth-0.", "section": "elevation" }
+      {
+        "name": "The One Accent Rule",
+        "body": "Exactly one non-neutral color is live on the page at any time (Academic Violet or Night Cyan, never both). It marks interactivity — links, hover, active nav — and nothing else. Category badges, buttons, and borders stay neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The One-Typeface Rule",
+        "body": "Every weight on the page is Roboto. If a new component needs a second typeface to feel distinct, that's a sign it doesn't belong on this page.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "MDB's Material components ship a shadow by default; this system turns it off everywhere except the photo and thumbnails. If a new button or card looks \"lifted,\" it's wrong — flatten it with z-depth-0.",
+        "section": "elevation"
+      }
     ],
     "dos": [
       "Do spend the single accent color (Academic Violet / Night Cyan) on links, hover, and active nav state only.",
