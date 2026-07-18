@@ -10,17 +10,18 @@ al-folio v1.0 split the theme into external RubyGems (`al_folio_core`, `al_folio
 
 Only five sections exist: **About, Experience, News, Selected Publications, Contact**. Everything else al-folio ships (Blog, Teaching, Projects, Distill posts, Books, Repositories, Profiles, the dropdown-nav demo) was deleted outright — not hidden from nav, the files are gone. Don't re-add them without deciding you actually want that section back (and re-vendoring the relevant files from upstream al-folio v0.16.3).
 
-| Section | File(s) |
-|---|---|
-| About / News / Selected Publications / Contact | `_pages/about.md` (single page, `layout: about`, permalink `/`) |
-| Experience | `_pages/cv.md` (`layout: cv`, permalink `/experience/`) + `_data/cv.yml` (single `Experience` time_table block) |
-| News | `_news/*.md` collection, rendered via `_includes/news.liquid` |
-| Publications | `_bibliography/papers.bib` (jekyll-scholar), full list at `/publications/`, `selected={true}` entries also show on About |
-| Social links / contact | `_data/socials.yml`, `contact_note` in `_config.yml` |
+| Section                                        | File(s)                                                                                                                  |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| About / News / Selected Publications / Contact | `_pages/about.md` (single page, `layout: about`, permalink `/`)                                                          |
+| Experience                                     | `_pages/cv.md` (`layout: cv`, permalink `/experience/`) + `_data/cv.yml` (single `Experience` time_table block)          |
+| News                                           | `_news/*.md` collection, rendered via `_includes/news.liquid`                                                            |
+| Publications                                   | `_bibliography/papers.bib` (jekyll-scholar), full list at `/publications/`, `selected={true}` entries also show on About |
+| Social links / contact                         | `_data/socials.yml`, `contact_note` in `_config.yml`                                                                     |
 
 ## Adding content
 
 **News item**: add a file to `_news/`, e.g. `_news/2027-01-15-new-paper.md`:
+
 ```markdown
 ---
 layout: post
@@ -31,6 +32,7 @@ related_posts: false
 
 Announcement text here, [links](https://example.com) work.
 ```
+
 Use `12:00:00` (noon), not midnight — a midnight UTC timestamp can roll back a day once Jekyll converts it to local display time. `about.md`'s `announcements.limit: 5` caps the homepage teaser; `/news/` always shows all of them.
 
 **Publication**: add a BibTeX entry to `_bibliography/papers.bib`. Useful custom fields (see `_layouts/bib.liquid`): `abbr` (venue badge), `selected={true}` (show on homepage), `preview={path/in/assets/img/...}` (thumbnail), `pdf`/`code`/`poster`/`slides`/`website`/`video`/`arxiv`/`doi` (link buttons/badges). Don't fabricate volume/issue/page numbers you're not sure of — omit the field rather than guess; the DOI/arXiv link is authoritative.
@@ -40,18 +42,22 @@ Use `12:00:00` (noon), not midnight — a midnight UTC timestamp can roll back a
 ## Local preview
 
 System Ruby on this machine (2.6.10) is too old for al-folio's Gemfile. Use Homebrew Ruby:
+
 ```bash
 brew install ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"   # add to shell profile to persist
 gem install bundler
 bundle install
 ```
+
 ImageMagick is required (not optional) — `imagemagick.enabled: true` in `_config.yml` generates responsive `.webp` variants at build time and the build errors without it: `brew install imagemagick`.
 
 Then:
+
 ```bash
 bundle exec jekyll serve
 ```
+
 and open `http://localhost:4000/`. Run `bundle exec jekyll build` alone to catch template/config errors without starting a server.
 
 ## Deploy
