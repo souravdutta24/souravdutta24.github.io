@@ -2,7 +2,7 @@
 
 Personal academic homepage for **Sourav Dutta** (Research Associate, Oden Institute, UT Austin) — live at [souravdutta24.github.io](https://souravdutta24.github.io).
 
-Built with [Jekyll](https://jekyllrb.com/) on a trimmed, hand-vendored copy of [al-folio](https://github.com/alshedivat/al-folio) **v0.16.3**. Deployed automatically via GitHub Actions on every push to `master`.
+Built with [Jekyll](https://jekyllrb.com/) on a trimmed, hand-vendored copy of [al-folio](https://github.com/alshedivat/al-folio) **v0.16.3**. Deployed automatically via GitHub Actions on every push to `main`.
 
 ## Structure
 

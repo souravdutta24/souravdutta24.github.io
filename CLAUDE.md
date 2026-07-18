@@ -68,7 +68,7 @@ and open `http://localhost:4000/`. Run `bundle exec jekyll build` alone to catch
 
 ## Deploy
 
-Push to `master` → `.github/workflows/deploy.yml` builds with Jekyll and deploys via `actions/deploy-pages` (not al-folio's documented `gh-pages` branch-push method). Pull requests trigger the same build job as a check but skip the deploy job.
+Push to `main` → `.github/workflows/deploy.yml` builds with Jekyll and deploys via `actions/deploy-pages` (not al-folio's documented `gh-pages` branch-push method). Pull requests trigger the same build job as a check but skip the deploy job.
 
 **One-time manual step** (already done, but if it ever gets reset): repo → Settings → Pages → Build and deployment → Source must be **"GitHub Actions"**, not "Deploy from a branch". al-folio's own README assumes the branch method — don't follow it on this point.
 
