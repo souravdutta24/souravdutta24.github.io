@@ -7,7 +7,7 @@ subtitle: Research Fellow, <a href='https://oden.utexas.edu/' target='_blank'>Od
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Computational Hydraulics Group</p>
     <p>Oden Institute for Computational Engineering & Sciences</p>
