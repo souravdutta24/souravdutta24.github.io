@@ -1,0 +1,3 @@
+# Maps a bibtex author surname (lowercase) to alternate first-name spellings
+# and an optional profile URL, so jekyll-scholar links their name on the
+# publications page. Add entries here as needed.

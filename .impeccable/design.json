@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-18T05:20:00Z",
+  "title": "Design System: The Scholar's Desk",
+  "extensions": {
+    "colorMeta": {
+      "academic-violet": {
+        "role": "primary",
+        "displayName": "Academic Violet",
+        "canonical": "#b509ac",
+        "tonalRamp": ["#490445", "#880781", "#c20ab9", "#f316e8", "#f650ee", "#f98af3", "#fcbbf8", "#fee7fd"]
+      },
+      "night-cyan": {
+        "role": "primary",
+        "displayName": "Night Cyan",
+        "canonical": "#2698ba",
+        "tonalRamp": ["#0d3440", "#186177", "#238aa9", "#34b0d5", "#67c4e0", "#99d8ea", "#c4e8f3", "#eaf7fb"]
+      },
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#000000" },
+      "ink-black": { "role": "neutral", "displayName": "Ink Black", "canonical": "#1c1c1d" },
+      "soft-grey": { "role": "neutral", "displayName": "Soft Grey", "canonical": "#e8e8e8" },
+      "muted": { "role": "neutral", "displayName": "Muted", "canonical": "#828282" },
+      "card-dark": { "role": "neutral", "displayName": "Card Dark", "canonical": "#212529" },
+      "highlight": { "role": "accent", "displayName": "Highlight", "canonical": "#b71c1c" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Name/title at the top of the About page only." },
+      "headline": { "displayName": "Headline", "purpose": "Section headings: News, Selected Publications." },
+      "body": { "displayName": "Body", "purpose": "Bio prose, publication metadata, news items." },
+      "label": { "displayName": "Label", "purpose": "Badges, button text, Education/Interests subheadings." }
+    },
+    "shadows": [
+      {
+        "name": "z-depth-1",
+        "value": "0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)",
+        "purpose": "Structural lift for the profile photo and publication preview thumbnails only."
+      },
+      {
+        "name": "z-depth-0",
+        "value": "none",
+        "purpose": "Explicit flattening override for buttons and other MDB components that ship a shadow by default."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "576px" },
+      { "name": "md", "value": "930px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Publication Link Button",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "Small flat link-styled button (DOI / arXiv / Code / Poster) shown in a row under each publication entry.",
+      "html": "<a class=\"ds-btn-link\" href=\"#\">DOI</a>",
+      "css": ".ds-btn-link { display: inline-block; margin: 0.375rem; padding: 0.38rem 1.6rem; font-size: 0.64rem; font-weight: 400; text-transform: uppercase; color: var(--global-text-color, #000); background: transparent; border: 0; border-radius: 2px; box-shadow: none; text-decoration: none; transition: color 0.15s ease-in-out; } .ds-btn-link:hover, .ds-btn-link:focus-visible { color: #b509ac; text-decoration: underline; }"
+    },
+    {
+      "name": "Venue Badge",
+      "kind": "chip",
+      "refersTo": "venue-badge",
+      "description": "Filled category tag (e.g. JCP, MCA) to the left of a publication's title/author block. The one place a filled accent background is used.",
+      "html": "<abbr class=\"ds-badge\">JCP</abbr>",
+      "css": ".ds-badge { display: block; width: 100%; text-align: center; padding: 0.25rem 0.5rem; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; color: #ffffff; background: #b509ac; border-radius: 4px; text-decoration: none; }"
+    },
+    {
+      "name": "Nav Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Top navbar item (about / publications / experience). Text-only, color-only state change, no background pill.",
+      "html": "<a class=\"ds-nav-link\" href=\"#\">publications</a>",
+      "css": ".ds-nav-link { color: #000000; text-decoration: none; font-size: 1rem; font-weight: 400; padding: 0.5rem 0.75rem; transition: color 0.15s ease-in-out; } .ds-nav-link:hover, .ds-nav-link:focus-visible, .ds-nav-link.active { color: #b509ac; }"
+    },
+    {
+      "name": "Profile Photo",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Circular avatar with the system's only decorative-adjacent shadow (z-depth-1). Sits at the top of the profile sidebar with social icons directly beneath.",
+      "html": "<img class=\"ds-avatar\" src=\"prof_pic.jpg\" alt=\"profile\" width=\"180\" height=\"180\">",
+      "css": ".ds-avatar { display: block; margin: 0 auto; width: 180px; height: 180px; border-radius: 50%; object-fit: cover; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12); }"
+    },
+    {
+      "name": "News List",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Borderless two-column table (date, announcement) capped at 320px height with scroll once there are more than 3 items. No card wrapper, no dividers.",
+      "html": "<div class=\"ds-news\"><table class=\"ds-news-table\"><tbody><tr><th>Oct 01, 2022</th><td>Started as Research Fellow at the Oden Institute.</td></tr></tbody></table></div>",
+      "css": ".ds-news { max-height: 320px; overflow-y: auto; } .ds-news-table { width: 100%; border-collapse: collapse; } .ds-news-table th, .ds-news-table td { padding: 1px 1rem 1px 0; font-size: 1rem; text-align: left; vertical-align: top; } .ds-news-table th { width: 20%; font-weight: bold; white-space: nowrap; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Scholar's Desk",
+    "overview": "Nothing on this page performs; everything is load-bearing. The system is built for a single, recurring visitor moment — someone landing from a citation, a conference program, or a referral, scanning quickly for who this person is, what they've published, and how to reach them. Density is low, whitespace is generous, and the one accent color is spent almost entirely on links and interactive state — never on decoration.\n\nThis inherits al-folio's stock Bootstrap/MDB foundation nearly unmodified: a single sans typeface (Roboto) at light weight for headings, flat surfaces by default, and Material-derived elevation (z-depth-*) used sparingly and only where it has a real job — the profile photo, a publication thumbnail. The system explicitly rejects marketing-site register: no hero sections, no gradient accents, no card-grid feature tiles, no big CTAs. A visitor should never wonder whether they landed on a product or a person's record of work.",
+    "keyCharacteristics": [
+      "One accent color, spent almost entirely on text links and hover/active state.",
+      "Flat by default; shadow appears only where it does real work (photo, thumbnails).",
+      "Single typeface (Roboto), weight does the hierarchy work, not a font pairing.",
+      "Bootstrap/MDB primitives used close to stock — no custom component language layered on top."
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Exactly one non-neutral color is live on the page at any time (Academic Violet or Night Cyan, never both). It marks interactivity — links, hover, active nav — and nothing else. Category badges, buttons, and borders stay neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The One-Typeface Rule",
+        "body": "Every weight on the page is Roboto. If a new component needs a second typeface to feel distinct, that's a sign it doesn't belong on this page.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "MDB's Material components ship a shadow by default; this system turns it off everywhere except the photo and thumbnails. If a new button or card looks \"lifted,\" it's wrong — flatten it with z-depth-0.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do spend the single accent color (Academic Violet / Night Cyan) on links, hover, and active nav state only.",
+      "Do keep buttons flat (z-depth-0) — they should read as styled text links, not filled CTAs.",
+      "Do let weight (300 for headings, 400 body, 500 label) carry hierarchy inside the single Roboto family.",
+      "Do reserve shadow (z-depth-1) for the profile photo and publication thumbnails only."
+    ],
+    "donts": [
+      "Don't add a second display typeface. Roboto Slab is loaded but unused — leave it that way rather than \"activating\" it for a new heading style.",
+      "Don't introduce hero sections, gradient accents, card-grid feature tiles, or marketing-style CTAs — this is a research record, not a product landing page.",
+      "Don't fill buttons or cards with the accent color as a background; the One Accent Rule reserves it for text/interactive state.",
+      "Don't add drop shadows to nav, buttons, or badges \"for depth\" — flat is the deliberate default; shadow is earned, not ambient."
+    ]
+  }
+}

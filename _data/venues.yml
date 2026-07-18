@@ -1,0 +1,4 @@
+# Maps a bib entry's `abbr` field to an optional badge color/link, e.g.:
+# "JCP":
+#   url: https://www.journals.elsevier.com/journal-of-computational-physics
+#   color: "#00369f"
