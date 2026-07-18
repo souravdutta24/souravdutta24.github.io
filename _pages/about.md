@@ -25,7 +25,7 @@ I am currently a Research Associate in the Computational Hydraulics Group at the
 
 My research interests lie at the intersection of classical, physics-based computational methods and modern data-driven, machine learning-based techniques with applications to computational science and engineering. I am particularly interested in exploring ways to develop efficient and robust numerical approximations of real-world, large scale environmental flow problems by combining physical principles with modern machine learning algorithms, either by infusing physics-based regularization in the learning trajectory or by modeling the underlying differential operator.
 
-<div class="row">
+<div class="row about-sections">
   <div class="col-md-5">
     <div class="section-subheading">Interests</div>
     <ul class="ul-interests mb-0">

@@ -238,6 +238,16 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Extra breathing room between About-page sections (bio, education/interests,
+// news, publications) beyond the theme's default heading margins.
+.about-sections {
+  margin-top: 2rem;
+}
+
+.page-section-heading {
+  margin-top: 3rem;
+}
+
 // Education / Interests two-column section on the About page
 .section-subheading {
   font-size: 0.95rem;
@@ -264,7 +274,7 @@ ul.task-list input[type="checkbox"] {
 
   li {
     position: relative;
-    padding-left: 1.5rem;
+    padding-left: 2.5rem;
     margin-bottom: 0.75rem;
 
     &:last-of-type {
