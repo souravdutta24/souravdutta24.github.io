@@ -6,6 +6,13 @@ div.container-link-button {
   margin-right: 0.5rem;
 }
 
+// Entry/position titles inside CV cards. Was styled via a `font-weight-medium`
+// class that doesn't exist in Bootstrap/MDB (a no-op), leaving weight to
+// whatever the framework default happened to be.
+.card-title {
+  font-weight: 600;
+}
+
 table.table-cv {
   background-color: transparent !important;
 

@@ -4,6 +4,14 @@
 
 // Typography
 
+:root {
+  --global-font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--global-font-family);
+}
+
 p,
 h1,
 h2,
@@ -246,14 +254,15 @@ ul.task-list input[type="checkbox"] {
 
 .page-section-heading {
   margin-top: 3rem;
+  font-weight: 600;
 }
 
 // Education / Interests two-column section on the About page
 .section-subheading {
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: var(--global-text-color);
@@ -683,6 +692,10 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  font-size: clamp(2rem, 1.6rem + 1.8vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
