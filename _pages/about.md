@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Fellow, <a href='https://oden.utexas.edu/' target='_blank'>Oden Institute</a>, UT Austin
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Computational Hydraulics Group</p>
+    <p>Oden Institute for Computational Engineering & Sciences</p>
+    <p>University of Texas at Austin</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,19 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a Research Fellow in the Computational Hydraulics Group at the [Oden Institute for Computational Engineering & Sciences](https://oden.utexas.edu/) of the University of Texas at Austin, where I am working with [Clint Dawson](https://oden.utexas.edu/people/directory/clint-dawson/). Previously, I was an ORISE postdoctoral fellow at the [Coastal & Hydraulics Laboratory](https://www.erdc.usace.army.mil/Locations/CHL/) of the U.S. Army Engineer Research and Development Center, where I worked with [Matthew Farthing](https://www.erdc.usace.army.mil/About/Leadership/Bio-Article-View/Article/3151369/dr-matthew-farthing/). Prior to that, I earned a Ph.D. in mathematics from Texas A&M University, supervised by [Prabir Daripa](https://www.math.tamu.edu/~prabir.daripa/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie at the intersection of classical, physics-based computational methods and modern data-driven, machine learning-based techniques with applications to computational science and engineering. I am particularly interested in exploring ways to develop efficient and robust numerical approximations of real-world, large scale environmental flow problems by combining physical principles with modern machine learning algorithms, either by infusing physics-based regularization in the learning trajectory or by modeling the underlying differential operator.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Education**
+- Ph.D. in Mathematics, Texas A&M University, 2017
+- B.Sc. & M.Sc. in Mathematics & Computing, Indian Institute of Technology Kharagpur, 2010
+
+**Research interests**
+- Model Order Reduction
+- Computational Fluid Dynamics
+- Scientific Machine Learning
+- Uncertainty Quantification

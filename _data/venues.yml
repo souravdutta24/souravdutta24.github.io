@@ -1,9 +1,4 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Maps a bib entry's `abbr` field to an optional badge color/link, e.g.:
+# "JCP":
+#   url: https://www.journals.elsevier.com/journal-of-computational-physics
+#   color: "#00369f"
