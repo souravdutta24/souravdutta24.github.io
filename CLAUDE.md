@@ -2,6 +2,10 @@
 
 Personal academic website for Sourav Dutta (Research Fellow, Oden Institute, UT Austin). Built with Jekyll on a trimmed, hand-vendored copy of [al-folio](https://github.com/alshedivat/al-folio) **v0.16.3** — not a submodule, not the current v1.x line.
 
+## Design context
+
+`PRODUCT.md` (register, audience, purpose, brand personality) and `DESIGN.md` (color/type/elevation/component tokens, extracted from the actual CSS in use) capture the site's design intent for the [impeccable](https://github.com/pbakaus/impeccable) design skill and any future design work. Read them before making visual changes.
+
 ## Why v0.16.3, not v1.x
 
 al-folio v1.0 split the theme into external RubyGems (`al_folio_core`, `al_folio_cv`, `al_folio_distill`, …) styled with Tailwind; customizing it means overriding files that live inside a gem. v0.16.3 is fully self-contained — every layout, include, Sass partial, and bibliography rule is a plain file in this repo. Do not attempt to "upgrade" to v1.x; it would mean a full rebuild, not a version bump.
