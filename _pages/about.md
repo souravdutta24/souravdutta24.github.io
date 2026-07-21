@@ -31,9 +31,9 @@ My research interests lie at the intersection of classical, physics-based comput
   <div class="col-md-5">
     <div class="section-subheading">Interests</div>
     <ul class="ul-interests mb-0">
-      <li>Model Order Reduction</li>
-      <li>Computational Fluid Dynamics</li>
       <li>Scientific Machine Learning</li>
+      <li>Model Order Reduction</li>
+      <li>Computational Hydrology</li>
       <li>Uncertainty Quantification</li>
     </ul>
   </div>
