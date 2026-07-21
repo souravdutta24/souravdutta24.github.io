@@ -6,7 +6,8 @@
         <div class="work-experience-position">
           <h4 class="work-experience-title">{{ position.title }}</h4>
           <div class="work-experience-meta">
-            {{ position.year }}{% if position.location %} &middot; {{ position.location }}{% endif %}
+            {{ position.year -}}
+            {%- if position.location %} &middot; {{ position.location }}{% endif %}
           </div>
         </div>
       {% endfor %}

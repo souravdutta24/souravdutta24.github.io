@@ -116,7 +116,7 @@ A near-monochrome page (black ink on white paper) with a single accent that swap
 - **Ink** (`#000000`): light-mode body text.
 - **Ink Black** (`#1c1c1d`): dark-mode background; also the light-mode footer background (the footer is a deliberate tonal inversion of the page).
 - **Soft Grey** (`#e8e8e8`): dark-mode body text; also the dark-mode footer background (inverse of Ink Black, mirroring the light-mode footer inversion).
-- **Muted** (`#828282`): the shared base gray — feeds the footer/distill-app-color roles and the dark-mode body-text tint (`$grey-color-light`, lightness+40%), but is **not** used directly for muted *text*: at 3.84:1 on white and ~4.4:1 on Ink Black it fails WCAG AA for body-size text (4.5:1). Muted text uses two derived shades instead (see below).
+- **Muted** (`#828282`): the shared base gray — feeds the footer/distill-app-color roles and the dark-mode body-text tint (`$grey-color-light`, lightness+40%), but is **not** used directly for muted _text_: at 3.84:1 on white and ~4.4:1 on Ink Black it fails WCAG AA for body-size text (4.5:1). Muted text uses two derived shades instead (see below).
 - **Muted Text — Light Mode** (`#5c5c5c`, `$muted-text-color-light` = Muted darkened 15%): secondary/de-emphasized text in light mode — institution names under a degree, post-meta/post-tags, the contact note under the social icons. ~6.7:1 on Paper.
 - **Muted Text — Dark Mode** (`#a8a8a8`, `$muted-text-color-dark` = Muted lightened 15%): the same role in dark mode. ~7:1 on Ink Black.
 - **Card Dark** (`#212529`): dark-mode surface for card-shaped containers.

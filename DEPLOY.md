@@ -9,7 +9,7 @@ branches and doc references (`README.md`, `CLAUDE.md`) were updated from
 `master` to `main` in the same change.
 
 **Gotcha hit during the rename**: GitHub's branch-rename endpoint does
-*not* update the repo's Pages source setting. `deploy.yml` still uses
+_not_ update the repo's Pages source setting. `deploy.yml` still uses
 `actions/deploy-pages` (build_type `workflow`), but the Pages API's
 `source.branch` field was left pointing at the deleted `master`, and the
 `deploy` job failed instantly (no steps ran) until it was manually

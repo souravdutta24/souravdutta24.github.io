@@ -16,13 +16,13 @@ Only five sections exist: **About, Work Experience, News, Selected Publications,
 
 There used to be a standalone `/experience/` page (`_pages/cv.md`, `layout: cv`) with its own left-sidebar TOC and a CV-pdf download link. It was folded into the homepage as a plain "Work Experience" section and the page/layout/includes were deleted outright (same convention as the other removed sections) — don't re-add `layout: cv` or `_includes/cv/*` without deciding you want that whole standalone-page architecture back.
 
-| Section                                                       | File(s)                                                                                                                  |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| About / Work Experience / News / Selected Publications / Contact | `_pages/about.md` (single page, `layout: about`, permalink `/`)                                                        |
-| Work Experience                                               | `_data/work_experience.yml` (flat list: `institution`, `title`, `year`, optional `location`), rendered via `_includes/work_experience.liquid` |
-| News                                                           | `_news/*.md` collection, rendered via `_includes/news.liquid`                                                            |
-| Publications                                                   | `_bibliography/papers.bib` (jekyll-scholar), full list at `/publications/`, `selected={true}` entries also show on About |
-| Social links / contact                                        | `_data/socials.yml`, `contact_note` in `_config.yml`                                                                     |
+| Section                                                          | File(s)                                                                                                                                       |
+| ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| About / Work Experience / News / Selected Publications / Contact | `_pages/about.md` (single page, `layout: about`, permalink `/`)                                                                               |
+| Work Experience                                                  | `_data/work_experience.yml` (flat list: `institution`, `title`, `year`, optional `location`), rendered via `_includes/work_experience.liquid` |
+| News                                                             | `_news/*.md` collection, rendered via `_includes/news.liquid`                                                                                 |
+| Publications                                                     | `_bibliography/papers.bib` (jekyll-scholar), full list at `/publications/`, `selected={true}` entries also show on About                      |
+| Social links / contact                                           | `_data/socials.yml`, `contact_note` in `_config.yml`                                                                                          |
 
 ## Adding content
 
