@@ -5,7 +5,7 @@ permalink: /
 #subtitle: Research Associate, <a href='https://oden.utexas.edu/' target='_blank'>Oden Institute</a>, University of Texas at Austin
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
 
