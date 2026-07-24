@@ -201,9 +201,35 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+// Two-column row on the About page: profile (photo + social) beside the
+// bio text. Flex, not float, so the bio column never wraps full-width
+// underneath the (shorter) profile column once the photo/social list ends.
+.about-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+
+  &.profile-right {
+    flex-direction: row-reverse;
+  }
+}
+
+.about-text {
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+@media (max-width: 575px) {
+  .about-top {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
 // Profile
 
 .profile {
+  flex: 0 0 auto;
   width: 100%;
   text-align: center;
 
@@ -370,14 +396,6 @@ ul.task-list input[type="checkbox"] {
 .work-experience-meta {
   font-size: 0.875rem;
   color: var(--global-text-color-light);
-}
-
-.profile.float-right {
-  margin-left: 2.5rem;
-}
-
-.profile.float-left {
-  margin-right: 2.5rem;
 }
 
 @media (min-width: 576px) {
