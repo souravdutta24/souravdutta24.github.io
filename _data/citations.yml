@@ -1,3 +1,107 @@
 metadata:
-  last_updated:
-papers: {}
+  last_updated: '2026-07-24'
+papers:
+  tJV7jW8AAAAJ:0EnyYjriUFMC:
+    citations: 1
+    title: Data-driven modeling of groundwater level using machine learning
+    year: '2024'
+  tJV7jW8AAAAJ:3fE2CSJIrl8C:
+    citations: 0
+    title: A novel data-driven, physics-guided neural emulator for predicting coastal hydrodynamics
+    year: '2024'
+  tJV7jW8AAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: Latent Space Neural Operators for Hydrodynamic Modeling
+    year: '2023'
+  tJV7jW8AAAAJ:9yKSN-GCB0IC:
+    citations: 8
+    title: On the convergence analysis of a hybrid numerical method for multicomponent transport in porous media
+    year: '2019'
+  tJV7jW8AAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: EFFECTIVE MODEL REDUCTION FOR SHALLOW WATER FLOWS
+    year: Unknown Year
+  tJV7jW8AAAAJ:KlAtU1dfN6UC:
+    citations: 4
+    title: A neural operator emulator for coastal and riverine shallow water dynamics
+    year: '2025'
+  tJV7jW8AAAAJ:LkGwnXOMwfcC:
+    citations: 11
+    title: Super-resolution and Uncertainty Estimation of Sparse Sensors of Dynamical Physical Systems
+    year: '2023'
+  tJV7jW8AAAAJ:MXK_kJrjxJIC:
+    citations: 0
+    title: Machine learning methods for modeling groundwater level changes using hydro-meteorological data
+    year: '2024'
+  tJV7jW8AAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: Viscous fingering and channeling in chemical enhanced oil recovery
+    year: '2017'
+  tJV7jW8AAAAJ:ULOm3_A8WrAC:
+    citations: 0
+    title: Operator Learning for Surrogate Modeling of Wave-Induced Forces from Sea Surface Waves
+    year: '2026'
+  tJV7jW8AAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: Training Deep Operator Networks for Coupled, Multi-Physics Applications in Coastal Hydrodynamics
+    year: '2022'
+  tJV7jW8AAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: Dispersive effects on multicomponent transport through porous media
+    year: '2017'
+  tJV7jW8AAAAJ:WF5omc3nYNoC:
+    citations: 15
+    title: Data-driven reduced order modeling of environmental hydrodynamics using deep autoencoders and neural ODEs
+    year: '2021'
+  tJV7jW8AAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: Numerical investigation of complex flooding schemes for surfactant polymer based enhanced oil recovery
+    year: '2015'
+  tJV7jW8AAAAJ:YsMSGLbcyi4C:
+    citations: 67
+    title: A greedy non-intrusive reduced order model for shallow water equations
+    year: '2021'
+  tJV7jW8AAAAJ:Zph67rFs4hoC:
+    citations: 0
+    title: 'Learning the Exact Flux: Neural Riemann Solvers with Hard Constraints'
+    year: '2026'
+  tJV7jW8AAAAJ:_FxGoFyzp5QC:
+    citations: 31
+    title: Reduced order modeling using advection-aware autoencoders
+    year: '2022'
+  tJV7jW8AAAAJ:d1gkVwhDpl0C:
+    citations: 40
+    title: "Modeling and simulation of surfactant\u2013polymer flooding using a new hybrid method"
+    year: '2017'
+  tJV7jW8AAAAJ:eQOLeE2rZwMC:
+    citations: 20
+    title: Neural Ordinary Differential Equations for Data-Driven Reduced Order Modeling of Environmental Hydrodynamics
+    year: '2021'
+  tJV7jW8AAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: Groundwater Level Estimation and Analysis using Deep Learning
+    year: '2023'
+  tJV7jW8AAAAJ:kNdYIx-mwKoC:
+    citations: 3
+    title: Examination of analytical shear stress predictions for coastal dune evolution
+    year: '2025'
+  tJV7jW8AAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: Mathematical Models and Numerical Methods for Porous Media Flows Arising in Chemical Enhanced Oil Recovery
+    year: '2017'
+  tJV7jW8AAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: Training Deep Operator Networks for Coupled, Multi-Physics Applications in Coastal Hydrodynamics
+    year: '2022'
+  tJV7jW8AAAAJ:u5HHmVD_uO8C:
+    citations: 3
+    title: Optimization of a managed aquifer recharge network
+    year: '2014'
+  tJV7jW8AAAAJ:ufrVoPGSRksC:
+    citations: 10
+    title: "Pynirom\u2014a suite of python modules for non-intrusive reduced order modeling of time-dependent problems"
+    year: '2021'
+  tJV7jW8AAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Modeling and simulation of multiphase multicomponent multiphysics porous media flows in the context of chemical enhanced oil recovery
+    year: '2015'
