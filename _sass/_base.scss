@@ -222,7 +222,7 @@ ul.task-list input[type="checkbox"] {
 @media (max-width: 575px) {
   .about-top {
     flex-direction: column;
-    gap: 0;
+    gap: 2rem;
   }
 }
 
@@ -321,6 +321,12 @@ ul.task-list input[type="checkbox"] {
 
   li {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-sections .col-md-5 {
+    margin-bottom: 2rem;
   }
 }
 
