@@ -1094,6 +1094,14 @@ footer.sticky-bottom {
   }
 }
 
+// medium-zoom clones the .preview thumbnail out of `ol.bibliography li` into <body>,
+// so the `.preview { object-fit: cover }` rule above no longer matches (ancestor lost)
+// and the browser default (object-fit: fill) stretches the image to the clone's fixed
+// square box. Force the original aspect ratio back in the zoomed-open state.
+.medium-zoom-image--opened {
+  object-fit: contain;
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
