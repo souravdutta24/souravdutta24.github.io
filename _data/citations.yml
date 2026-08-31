@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-31'
 papers:
   tJV7jW8AAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -98,7 +98,7 @@ papers:
     title: Optimization of a managed aquifer recharge network
     year: '2014'
   tJV7jW8AAAAJ:ufrVoPGSRksC:
-    citations: 10
+    citations: 11
     title: "Pynirom\u2014a suite of python modules for non-intrusive reduced order modeling of time-dependent problems"
     year: '2021'
   tJV7jW8AAAAJ:zYLM7Y9cAGgC:
